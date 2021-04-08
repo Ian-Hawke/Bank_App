@@ -1,15 +1,22 @@
-KnapToggle  knap10kr      =new
-  KnapToggle  knap100kr    =new
-  KnapToggle  knap1000kr  =new
+KnapToggle  k10   =new KnapToggle();
+KnapToggle  k100  =new KnapToggle();
+KnapToggle  k1000 =new KnapToggle();
+
+KnapOverfør  kAdd =new Knap();
+
+KontoFelt  kf     =new Kontofelt();
 
   void setup() {
-}
+    size(500, 500);
 }
 void draw() {
-
-  knap10kr.display();
-  knap100.display();
-  knap1000.display();
+  background(0);
+  k10.display();
+  k100.display();
+  k1000.display();
+  kAdd.display();
+  kf.display();
+  
 }
 
 void mousePressed() {
