@@ -5,8 +5,5 @@ class KnapToggle extends Knap{
 
 void registerTryk(){
 
-
-
-
 }
 }
